@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    width: 60px;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+}
+
+.nav-items > li {
+    padding: 10px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.footer-page {
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    flex-shrink: 0;
+}
